@@ -113,7 +113,7 @@ SUDO_USERS.add(861055237)
 
 
 updater = tg.Updater(TOKEN, workers=WORKERS)
-
+pbot = Client("mashapbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 
 SUDO_USERS = list(SUDO_USERS)
