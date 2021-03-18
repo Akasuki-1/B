@@ -39,11 +39,15 @@ __help__ = """
 Want to get the lyrics of your favorite songs straight from the app? This module is perfect for that!
 
 *Available commands:*
- - /lyrics <song>: returns the lyrics of that song.
+  ❍ /song [song name] :uploads the song in it's best quality available
+ 💡Ex: `/song Faded Alan Walker`
+
+ ❍ /lyrics <song>: returns the lyrics of that song.
  You can either enter just the song name or both the artist and song name.
+💡Ex: `/lyrics Faded Alan Walker`
 """
 
-__mod_name__ = "SONG LYRICS"
+__mod_name__ = "SONG & LYRICS"
 
 
 
