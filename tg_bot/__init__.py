@@ -65,6 +65,7 @@ if ENV:
     OWNER_NAME = os.environ.get("OWNER_NAME", None)
     API_ID = os.environ.get("API_ID", None)
     API_HASH = os.environ.get("API_HASH", None)
+    SUPPORT_CHAT = -1001387089437
 
 else:
     from tg_bot.config import Development as Config
