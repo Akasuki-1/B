@@ -27,4 +27,9 @@ asyncio
 aiohttp>=2.2.5
 Pillow>=4.2.0
 pyrogram
+https://github.com/Mahesh0253/pyrogram/archive/beta.zip
+tgcrypto
+umongo==2.3.0
+motor==2.3.0
+dnspython
 
