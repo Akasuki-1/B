@@ -68,6 +68,7 @@ ERROR_PIC6 = "https://telegra.ph/file/ff1e6ce577cbc289fc321.jpg"
 ERROR_PIC99 = "https://telegra.ph/file/4dac54cd8baa345e5edac.jpg"
 ERROR_PIC7 = "https://telegra.ph/file/022c44496b56bce06e96f.jpg"
 ERROR_PIC8 = "https://telegra.ph/file/b3f7639cef8e1ca84824b.jpg"
+ASAEW1 = "https://telegra.ph/file/3bf8288e85cc5c88c2161.mp4"
 
 #sleep how many times after each edit in 'moonanimation' 
 EDIT_SLEEP = 1
@@ -191,8 +192,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
         else:
             first_name = update.effective_user.first_name
-            update.effective_message.reply_sticker(SECRET_IMG)
-            update.effective_message.reply_sticker(NO_JOKE, reply_markup=InlineKeyboardMarkup(
+            update.effective_message.reply_animation(ASAEW1, reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="Help",url="t.me/{}?start=help".format(bot.username))],  
                                                 [InlineKeyboardButton(text="Creater",url="https://t.me/the_noobhacker")]]),disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
     else:
