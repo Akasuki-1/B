@@ -79,7 +79,7 @@ def load_module(shortname):
         pass
     elif shortname.endswith("_"):
         import importlib
-        import LEGEND.events
+        import tg_bot.events
 
         path = Path(f"tg_bot/modules/{shortname}.py")
         name = "tg_bot.modules.{}".format(shortname)
@@ -89,7 +89,7 @@ def load_module(shortname):
         print("Successfully imported " + shortname)
     else:
         import importlib
-        import LEGEND.events
+        import tg_bot.events
 
         path = Path(f"tg_bot/modules/{shortname}.py")
         name = "tg_bot.modules.{}".format(shortname)
