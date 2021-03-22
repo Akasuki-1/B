@@ -1,4 +1,5 @@
 future
+requests
 youtube_search
 youtube_dl
 sqlalchemy==1.3.23
