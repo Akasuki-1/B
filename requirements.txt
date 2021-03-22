@@ -1,4 +1,4 @@
-requests
+future
 youtube_search
 youtube_dl
 requests
@@ -23,7 +23,6 @@ https://github.com/Mahesh0253/pyrogram/archive/beta.zip
 umongo==2.3.0
 motor==2.3.0
 dnspython
-future
 bs4
 telegraph
 search_engine_parser
