@@ -1,6 +1,6 @@
 from telethon import events
 
-from LEGEND import telethn
+from tg_bot import telethn
 import inspect
 import time
 import logging
